@@ -474,6 +474,9 @@ div#preloader {
 /*------------------------------
   3. About Area
 --------------------------------*/
+#about{
+  text-align: center;
+}
 
 .about-area {
   background-color: #f9f9f9;
@@ -486,19 +489,45 @@ div#preloader {
 .single-well ul li {
   color: #444;
   display: block;
-  padding: 5px 0;
+  text-align: left;
+  width: 100%;
 }
 
 .single-well ul li i {
   color: #3EC1D5;
-  padding-right: 10px;
   font-size: 12px;
 }
 
 .single-well p {
   color: #444;
+  text-align: left;
 }
 
+.notice{
+  margin: 5px;
+  padding: 5px;
+  color: blue;
+  background-color: white;
+}
+
+.single-well ul li h4{
+  color: blue;
+  font-family: "Trirong", serif;
+}
+
+.scroll {
+  display: block;
+  border: 0px solid red;
+  padding: 10px;
+  width: 45rem;
+  height: 20rem;
+  overflow-y: scroll;
+}
+
+.about-point{
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /*--------------------------------*/
 
 /* 4.Services Area
